@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace SyliusStarter\Plugins\Tests\Unit\Tasks;
+namespace Sylius\Starter\Plugins\Tests\Unit\Tasks;
 
 use Castor\Container;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use SyliusStarter\Core\Component\CallableInstaller;
-use SyliusStarter\Core\Component\CallableRemover;
-use SyliusStarter\Plugins\Installer\CmsInstaller;
-use SyliusStarter\Plugins\Installer\ProductBundleInstaller;
-use SyliusStarter\Plugins\Remover\ApiRemover;
-use SyliusStarter\Plugins\Tasks\PluginTasks;
+use Sylius\Starter\Core\Component\CallableInstaller;
+use Sylius\Starter\Core\Component\CallableRemover;
+use Sylius\Starter\Plugins\Installer\CmsInstaller;
+use Sylius\Starter\Plugins\Installer\ProductBundleInstaller;
+use Sylius\Starter\Plugins\Remover\ApiRemover;
+use Sylius\Starter\Plugins\Tasks\PluginTasks;
 use Symfony\Component\Console\Exception\MissingInputException;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\BufferedOutput;

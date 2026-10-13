@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace SyliusStarter\Plugins\Installer;
+namespace Sylius\Starter\Plugins\Installer;
 
-use SyliusStarter\Core\App;
-use SyliusStarter\Core\Component\InstallerInterface;
-use SyliusStarter\Core\Util\Composer;
-use SyliusStarter\Core\Util\Docker;
-use SyliusStarter\Core\Util\Symfony;
-use SyliusStarter\Core\Util\Yaml;
-use SyliusStarter\Plugins\PluginResourceCopier;
+use Sylius\Starter\Core\App;
+use Sylius\Starter\Core\Component\InstallerInterface;
+use Sylius\Starter\Core\Util\Composer;
+use Sylius\Starter\Core\Util\Docker;
+use Sylius\Starter\Core\Util\Symfony;
+use Sylius\Starter\Core\Util\Yaml;
+use Sylius\Starter\Plugins\PluginResourceCopier;
 
 use function Castor\io;
 

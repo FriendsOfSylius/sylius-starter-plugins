@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace SyliusStarter\Plugins\Tasks;
+namespace Sylius\Starter\Plugins\Tasks;
 
 use Castor\Attribute\AsRawTokens;
 use Castor\Attribute\AsTask;
-use SyliusStarter\Core\App;
-use SyliusStarter\Core\Component\ComponentChoices;
-use SyliusStarter\Core\Component\InstallerInterface;
-use SyliusStarter\Core\Component\RemoverInterface;
+use Sylius\Starter\Core\App;
+use Sylius\Starter\Core\Component\ComponentChoices;
+use Sylius\Starter\Core\Component\InstallerInterface;
+use Sylius\Starter\Core\Component\RemoverInterface;
 
 use function Castor\io;
 

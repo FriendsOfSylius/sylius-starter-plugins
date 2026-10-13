@@ -1,5 +1,5 @@
 {
-    "name": "sylius-starter/plugins",
+    "name": "sylius/starter-plugins",
     "description": "Castor tasks to add and remove Sylius plugins (CMS, Invoicing, Refund, Wishlist, reCAPTCHA, ALTCHA...)",
     "type": "library",
     "license": "MIT",
@@ -8,7 +8,7 @@
         "castor",
         "starter"
     ],
-    "homepage": "https://github.com/sylius-starter/sylius-starter",
+    "homepage": "https://github.com/Sylius/Starter",
     "authors": [
         {
             "name": "Loïc Frémont",
@@ -17,11 +17,11 @@
     ],
     "require": {
         "php": ">=8.3",
-        "sylius-starter/core": "self.version"
+        "sylius/starter-core": "self.version"
     },
     "autoload": {
         "psr-4": {
-            "SyliusStarter\\Plugins\\": "src/"
+            "Sylius\\Starter\\Plugins\\": "src/"
         },
         "files": [
             "src/functions.php"
@@ -29,7 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "SyliusStarter\\Plugins\\Tests\\": "tests/"
+            "Sylius\\Starter\\Plugins\\Tests\\": "tests/"
         }
     },
     "extra": {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace SyliusStarter\Plugins\Remover;
+namespace Sylius\Starter\Plugins\Remover;
 
-use SyliusStarter\Core\App;
-use SyliusStarter\Core\Component\RemoverInterface;
-use SyliusStarter\Core\Util\Composer;
-use SyliusStarter\Core\Util\Docker;
-use SyliusStarter\Core\Util\Symfony;
+use Sylius\Starter\Core\App;
+use Sylius\Starter\Core\Component\RemoverInterface;
+use Sylius\Starter\Core\Util\Composer;
+use Sylius\Starter\Core\Util\Docker;
+use Sylius\Starter\Core\Util\Symfony;
 
 use function Castor\finder;
 use function Castor\fs;

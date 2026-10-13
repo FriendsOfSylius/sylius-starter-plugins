@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SyliusStarter\Plugins\Installer;
+namespace Sylius\Starter\Plugins\Installer;
 
-use SyliusStarter\Core\Component\InstallerInterface;
-use SyliusStarter\Plugins\Attribute\AsPluginInstaller;
+use Sylius\Starter\Core\Component\InstallerInterface;
+use Sylius\Starter\Plugins\Attribute\AsPluginInstaller;
 
 final readonly class PluginInstallerDescriptor
 {
