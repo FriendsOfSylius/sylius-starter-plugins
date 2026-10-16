@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Starter\Plugins\Remover;
+namespace SyliusStarter\Plugins\Remover;
 
-use Sylius\Starter\Core\App;
-use Sylius\Starter\Core\Component\RemoverInterface;
-use Sylius\Starter\Core\Util\Composer;
-use Sylius\Starter\Core\Util\Docker;
+use SyliusStarter\Core\App;
+use SyliusStarter\Core\Component\RemoverInterface;
+use SyliusStarter\Core\Util\Composer;
+use SyliusStarter\Core\Util\Docker;
 
 use function Castor\io;
 

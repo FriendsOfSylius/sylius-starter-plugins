@@ -2,41 +2,41 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Starter\Plugins;
+namespace SyliusStarter\Plugins;
 
 use Castor\Attribute\AsListener;
 use Castor\Event\AfterBootEvent;
-use Sylius\Starter\Core\App;
-use Sylius\Starter\Core\Component\CallableInstaller;
-use Sylius\Starter\Core\Component\CallableRemover;
-use Sylius\Starter\Core\Component\ComponentResolver;
-use Sylius\Starter\Core\Service\SyliusService;
-use Sylius\Starter\Core\Task\TaskProviderRegistry;
-use Sylius\Starter\Plugins\Attribute\AsPluginInstaller;
-use Sylius\Starter\Plugins\Attribute\AsPluginRemover;
-use Sylius\Starter\Plugins\Installer\AiDevToolsInstaller;
-use Sylius\Starter\Plugins\Installer\AltchaInstaller;
-use Sylius\Starter\Plugins\Installer\BugSnagInstaller;
-use Sylius\Starter\Plugins\Installer\CmsInstaller;
-use Sylius\Starter\Plugins\Installer\GdprInstaller;
-use Sylius\Starter\Plugins\Installer\InvoicingInstaller;
-use Sylius\Starter\Plugins\Installer\MediaInstaller;
-use Sylius\Starter\Plugins\Installer\PluginInstallerDescriptor;
-use Sylius\Starter\Plugins\Installer\ProductBundleInstaller;
-use Sylius\Starter\Plugins\Installer\RecaptchaInstaller;
-use Sylius\Starter\Plugins\Installer\RefundInstaller;
-use Sylius\Starter\Plugins\Installer\WishlistInstaller;
-use Sylius\Starter\Plugins\Remover\AiDevToolsRemover;
-use Sylius\Starter\Plugins\Remover\AltchaRemover;
-use Sylius\Starter\Plugins\Remover\ApiRemover;
-use Sylius\Starter\Plugins\Remover\BugSnagRemover;
-use Sylius\Starter\Plugins\Remover\CmsRemover;
-use Sylius\Starter\Plugins\Remover\GdprRemover;
-use Sylius\Starter\Plugins\Remover\InvoicingRemover;
-use Sylius\Starter\Plugins\Remover\PluginRemoverDescriptor;
-use Sylius\Starter\Plugins\Remover\RecaptchaRemover;
-use Sylius\Starter\Plugins\Remover\WishlistRemover;
-use Sylius\Starter\Plugins\Tasks\PluginTasks;
+use SyliusStarter\Core\App;
+use SyliusStarter\Core\Component\CallableInstaller;
+use SyliusStarter\Core\Component\CallableRemover;
+use SyliusStarter\Core\Component\ComponentResolver;
+use SyliusStarter\Core\Service\SyliusService;
+use SyliusStarter\Core\Task\TaskProviderRegistry;
+use SyliusStarter\Plugins\Attribute\AsPluginInstaller;
+use SyliusStarter\Plugins\Attribute\AsPluginRemover;
+use SyliusStarter\Plugins\Installer\AiDevToolsInstaller;
+use SyliusStarter\Plugins\Installer\AltchaInstaller;
+use SyliusStarter\Plugins\Installer\BugSnagInstaller;
+use SyliusStarter\Plugins\Installer\CmsInstaller;
+use SyliusStarter\Plugins\Installer\GdprInstaller;
+use SyliusStarter\Plugins\Installer\InvoicingInstaller;
+use SyliusStarter\Plugins\Installer\MediaInstaller;
+use SyliusStarter\Plugins\Installer\PluginInstallerDescriptor;
+use SyliusStarter\Plugins\Installer\ProductBundleInstaller;
+use SyliusStarter\Plugins\Installer\RecaptchaInstaller;
+use SyliusStarter\Plugins\Installer\RefundInstaller;
+use SyliusStarter\Plugins\Installer\WishlistInstaller;
+use SyliusStarter\Plugins\Remover\AiDevToolsRemover;
+use SyliusStarter\Plugins\Remover\AltchaRemover;
+use SyliusStarter\Plugins\Remover\ApiRemover;
+use SyliusStarter\Plugins\Remover\BugSnagRemover;
+use SyliusStarter\Plugins\Remover\CmsRemover;
+use SyliusStarter\Plugins\Remover\GdprRemover;
+use SyliusStarter\Plugins\Remover\InvoicingRemover;
+use SyliusStarter\Plugins\Remover\PluginRemoverDescriptor;
+use SyliusStarter\Plugins\Remover\RecaptchaRemover;
+use SyliusStarter\Plugins\Remover\WishlistRemover;
+use SyliusStarter\Plugins\Tasks\PluginTasks;
 
 TaskProviderRegistry::register(
     'plugins',

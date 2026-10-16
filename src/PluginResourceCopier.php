@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Starter\Plugins;
+namespace SyliusStarter\Plugins;
 
-use Sylius\Starter\Core\App;
+use SyliusStarter\Core\App;
 
 use function Castor\finder;
 use function Castor\fs;

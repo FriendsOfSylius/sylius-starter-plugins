@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Starter\Plugins\Remover;
+namespace SyliusStarter\Plugins\Remover;
 
-use Sylius\Starter\Core\Component\RemoverInterface;
-use Sylius\Starter\Plugins\Attribute\AsPluginRemover;
+use SyliusStarter\Core\Component\RemoverInterface;
+use SyliusStarter\Plugins\Attribute\AsPluginRemover;
 
 final readonly class PluginRemoverDescriptor
 {
